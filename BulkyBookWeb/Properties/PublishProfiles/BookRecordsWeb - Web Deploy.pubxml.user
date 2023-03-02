@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvPtAK+uLkE2u+XaRnHm+JgAAAAACAAAAAAAQZgAAAAEAACAAAABUhGaoS6ULOAQBl1gna2lrasp+1snlmy/DnLXsaPwgdAAAAAAOgAAAAAIAACAAAADdWcwG2G1V5p67sUi/yOmKbppvbSynz96WKkfqt4Pv9oAAAACHQPsCSqav1lcJOOmzZ8A0zkxmDsPIipJe7H+PfNl1bm+bR7tdH+JtiDN8nSUYMbCEeIX4XpVot/wuBa1KrnNGeU0b+K+DV88rKguwopDEvc2n0hBRWAHgH+Rg7tHs9MVYrnlRQqqu9AeAG/7EV7daL4Qj/MnZN+6hTQiFibwWOEAAAAAMg5Wfik7Zv1UuRPdtO+2dqfuBd+nya2InquBv0YQ6ytdG6kVWp/PHC0ABGquc31d5KS68REaofng1OQa7s4rg</EncryptedPassword>
+    <History>True|2023-02-23T11:16:24.9450745Z;False|2023-02-23T11:41:34.1365834+02:00;False|2023-02-23T11:33:36.7036684+02:00;False|2023-02-22T19:06:26.4248984+02:00;False|2023-02-22T19:00:31.6412057+02:00;False|2023-02-22T18:57:27.6892933+02:00;False|2023-02-22T18:54:02.6137580+02:00;False|2023-02-22T18:52:24.3932638+02:00;False|2023-02-22T18:49:44.2895900+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:dotnetfirstappserver.database.windows.net,1433%3bInitial Catalog=dotnet_firstapp_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=dreptulmediului1P&amp;%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:dotnetfirstappserver.database.windows.net,1433%3bInitial Catalog=dotnet_firstapp_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=dreptulmediului1P&amp;%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
